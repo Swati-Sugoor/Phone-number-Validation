@@ -2,11 +2,8 @@ package Pack2;
 
 import java.util.regex.*;
 
-// Main class
 class Pno {
 
-	// Method 1
-	//
 	public static boolean isValid(String s)
 	{
 
@@ -29,8 +26,6 @@ class Pno {
 		return (m.matches());
 	}
 
-	// Method 2
-	// Main driver method
 	public static void main(String[] args)
 	{
 
