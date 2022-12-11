@@ -30,18 +30,18 @@ class Pno {
 	{
 
 		// Custom input strings
-		String s = "+1 212 555-3458";
-		String s_1 = "212.456.7890";
+		String p1 = "+1 212 555-3458";
+		String p2 = "212.456.7890";
 
 		// Checking if the strings are valid or not
-		if (isValid(s))
+		if (isValid(p1))
 			System.out.println("Valid Number");
 		else
 
 			System.out.println("Invalid Number");
 
 
-		if (isValid(s_1))
+		if (isValid(p2))
 
 			System.out.println("Valid Number");
 		else
